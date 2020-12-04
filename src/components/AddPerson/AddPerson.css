@@ -1,0 +1,22 @@
+.AddPerson {
+  text-align: center;
+  margin: 30px;
+}
+
+.AddPerson button {
+  padding: 10px 15px;
+  border: 1px solid lightblue;
+  border-radius: 10px;
+  background-color: aqua;
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d0d0d;
+}
+
+.AddPerson button:hover {
+  cursor: pointer;
+  border: 1px solid aqua;
+  box-shadow: 0 0.2px 0.7px aqua, 0 0.5px 1.6px rgba(0, 0, 0, 0.169),
+    0 1px 2.9px rgba(0, 0, 0, 0.131), 0 1.6px 4.8px rgba(0, 0, 0, 0.112),
+    0 2.6px 7.9px rgba(0, 0, 0, 0.099);
+}
